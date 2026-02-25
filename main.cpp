@@ -1,6 +1,7 @@
 #include <iostream>
 #include "guessGame.h"
 #include "rps.h"
+#include "dice.h"
 
 using namespace std;
 
@@ -28,6 +29,7 @@ int main() {
         break;
     case 3:
         cout << "You choose: DICE GAME\n";
+        playDicegame();
         break;
     default:
         cout << "Invalid choice!\n";
