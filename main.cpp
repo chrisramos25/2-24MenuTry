@@ -19,15 +19,15 @@ int main() {
 
     switch (game) {
     case 1:
-        cout << "You choose NUMBER GUESSING GAME\n";
+        cout << "You choose: NUMBER GUESSING GAME\n";
         playGuessingGame();
         break;
     case 2:
-        cout << "You choose ROCK PAPER SCISSORS\n";
+        cout << "You choose: ROCK PAPER SCISSORS!\n";
         playRockPaper();
         break;
     case 3:
-        cout << "You choose DICE GAME\n";
+        cout << "You choose: DICE GAME\n";
         break;
     default:
         cout << "Invalid choice!\n";

@@ -2,13 +2,13 @@
 #include "guessGame.h"
 #include <cstdlib> //allows for srand and rand functions to be used
 #include <ctime>
-#include "resumePlaying.h"
+#include "continue.h"
 
 using namespace std;
 
 void playGuessingGame() {
 
-	resumePlaying();
+	//resumePlaying();
 
 	srand(time(0)); //starting (seed) for random numbers with rand() (time(0) so that it gives a different seed each time)
 	int secretNumber = rand() % 3 + 1; //generates random number between 1 and 10
